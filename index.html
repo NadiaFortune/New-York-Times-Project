@@ -51,10 +51,10 @@
             <form role="form">
 
               <!-- Here we create the text box for capturing the search term-->
-              <div class="mb-3">
-                <label for="search" class="form-label">Search Term:</label>
-                <input type="text" class="form-control" id="search-term">
-              </div>
+            <div class="mb-3">
+                <label for="search-term" class="form-label">Search Term:</label>
+                <input type="text" class="form-control" id="search-term" placeholder="Enter your search term">
+            </div> <!-- added placeholder  attribute to provide a hint to users about the type of information expected in the input field. -->
 
               <!-- Here we capture the number of records that the user wants to retrieve  -->
               <div class="mb-3">
@@ -80,7 +80,7 @@
               </div>
 
               <!-- Here we have our final submit button -->
-              <button type="submit" class="btn btn-secondary" id="run-search">
+              <button type="submit" class="btn btn-primary" id="run-search"> <!-- change to primary for emphasis-->
                 <i class="fa fa-search"></i> Search</button>
               <button class="btn btn-secondary" id="clear-all">
                 <i class="fa fa-trash"></i> Clear Results</button>
